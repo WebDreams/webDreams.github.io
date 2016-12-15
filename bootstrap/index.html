@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>Start Bootstrap Theme</title>
+	<link rel="stylesheet" href="bootstrap.css">
+	<script src="jquery.js"></script>
+	<script src="bootstrap.js"></script>
+	<style>
+	body{margin:0;padding:0;background:#fff;font-size:14px;font-family:Arial,Helvetica,'STHeiti','Microsoft YaHei','sans-serif'}
+	form,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+	img{border:0;}
+	ul,li{list-style-type:none;}
+	a{color:#00007F;text-decoration:none;}
+	a:hover{text-decoration:underline;}
+	.head {
+	    padding-top: 146px; 
+	    padding-bottom: 146px;
+	    text-align: center;
+	    color: #f8f8f8;
+	    background: url(img/intro-bg.jpg) no-repeat center center;
+	    background-size:cover;
+	}
+	.head button{
+		margin-top:40px;
+		letter-spacing: 1px;
+		padding:12px;
+	}
+	.head p{
+		font-size: 2rem
+		padding:10px;
+	}
+
+	.info{
+		margin-top:50px;
+		padding-top: 100px; 
+	    padding-bottom: 100px;
+	    text-align: left;
+	    color: #f8f8f8;
+	    background: url(img/intro-bg.jpg) no-repeat center center;
+	    background-size:cover;
+	}
+	.info button{
+		margin:20px 0px;
+		font-size:1.6rem;
+		padding:10px;
+	}
+	.hrr{
+		width:100%;border:1px solid #fff;
+		margin-top:20px;
+	}
+	@media screen and (min-width: 767px) {
+	    .hrr{
+			margin:0 auto;
+			width:50%;
+			margin-top:20px;
+		}
+	}
+	.footer a{
+			color:#337ab7;
+			font-size:1.4rem;
+		}
+	.footer a:hover{
+		text-decoration:underline;
+	}
+	</style>	
+</head>
+<body>
+
+	<!-- navbar-fixed-top position:fixed -->
+	<div class="container">
+		<nav id="navbar-example" class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container-fluid"> 
+				<div class="navbar-header">
+					<button class="navbar-toggle" type="button" data-toggle="collapse" 
+							data-target="#showNabar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand pull-left" href="#">StartBootstrap</a>
+				</div>
+				<div class="collapse navbar-collapse" id="showNabar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#top"><b>About</b></a></li>
+						<li><a href="#ser"><b>Services</b></a></li>
+						<li><a href="#con"><b>Content</b></a></li>
+					</ul>
+				</div>
+			</div> 
+		</nav>
+	</div>
+
+	<!-- banner -->
+	<div class="head" id="top">
+   	 <div class="container">
+			<div class=row>
+				<div class="col-xs-12 col-md-12 col-lg-12">
+					<h1>BootStrap</h1>
+					<br>
+					<p>一个简单的bootstrap模板</p>
+					<div class="hrr"></div>
+				</div>	
+				<div class="clearfix"></div>
+				<div class="col-xs-12 col-md-7 col-md-push-3 col-lg-11  btn-group" class="row">
+					<div class="col-xs-12 col-md-3 col-lg-2">
+						<button  type="button" class="btn btn-default">
+							<img src="img/bird.png">
+							TWITTER
+						</button>
+					</div>
+					<div class="col-xs-12 col-md-3 col-lg-2">
+						<button  type="button" class="btn btn-default">
+							<img src="img/cat.png">
+							GITHUB
+						</button>
+					</div>
+					<div class="col-xs-12 col-md-3 col-lg-2">
+						<button  type="button" class="btn btn-default">
+							<img src="img/in.png">
+							THENEWSTEP
+						</button>
+					</div>
+				
+				</div>	
+			</div>	
+		</div>	
+	</div>
+
+	<!-- ipad  -->
+	<hr id="ser" style="border-top:3px solid #eee;width:30%; margin-left:20px;margin-top: 80px;">
+	<div class="container">
+		<div class="row">
+			<!-- txt -->
+			<div class="col-xs-12 col-md-6 col-lg-5">
+
+					<h2>生活不止眼前的苟且：<br>还有以后的</h2>
+					<br>
+					<p style="font-size:18px;">生活不止眼前的苟且&nbsp;<a href="#">还有远方的田野&nbsp;</a>工作只是生活的一部分，所以要抽出时间享受生活，更要懂得休息，即使你不累！</a></p>
+			</div>
+			<!-- ipad -->
+
+			<div class="col-xs-12 col-md-6 col-lg-offset-1 col-lg-6">
+				<br>
+				<img class="img-responsive" src="img/ipad.png">
+			</div>
+		</div>	
+	</div>
+	<div class="clearfix"></div>
+	<!-- dog  -->
+	<hr style="border-top:3px solid #eee;width:50%; margin-left:20px;">
+	<div class="container">
+		<div class="row">
+			<!-- txt -->
+			<!-- col-push-* 交换位置:+  col-lg-pull-* :- -->
+			<div class="col-xs-12 col-md-6 col-lg-5 col-lg-push-6">
+
+					<h2>上天给我们最公平的礼物：<br>就是时间</h2>
+					<br>
+					<p style="font-size:18px;">每个人的时间都一样，只要能够分配好，管理好，利用好&nbsp;<a href="#">那么我们的生活就会越来越好！！&nbsp;</a>
+					我艰辛一句话，那就是月女里，越幸运。
+					</p>
+			</div>
+			<!-- ipad -->
+
+			<div class="col-xs-12 col-md-6  col-lg-6 col-lg-pull-6">
+				<br>
+				<img class="img-responsive" src="img/dog.png">
+			</div>
+		</div>	
+	</div>
+	<!-- time -->
+	<hr style="border-top:3px solid #eee;width:50%; margin-left:20px;">
+	<div id="con" class="container">
+		<div class="row">
+			<!-- txt -->
+			<div class="col-xs-12 col-md-6 col-lg-5">
+
+					<h2>珍惜时间：<br>远离浪费！</h2>
+					<br>
+					<p style="font-size:18px;">才可以让生命变得更有意义！&nbsp;<a href="#">鸡汤说的多了&nbsp;</a>有时候不是在提醒他人，<a href="#">更多的是提醒自己！</a></p>
+			</div>
+			<!-- ipad -->
+
+			<div class="col-xs-12 col-md-6 col-lg-offset-1 col-lg-6">
+				<br>
+				<img class="img-responsive" src="img/phones.png">
+			</div>
+		</div>	
+	</div>
+	<div class="clearfix"></div>
+	
+	<!-- info -->
+	<div class="info">
+		<div class="container">
+			<div class=row>
+				<div class="col-xs-12 col-lg-6">
+					<h1>Start BootStrap：</h1>
+				</div>	
+				<div class="col-xs-12 col-lg-6 btn-group" class="row">
+					<div class="col-xs-12 col-md-2 col-lg-4">
+						<button  type="button" class="btn btn-default">
+							<img src="img/bird.png">
+							TWITTER
+						</button>
+					</div>
+					<div class="col-xs-12 col-md-2 col-lg-4">
+						<button  type="button" class="btn btn-default">
+							<img src="img/cat.png">
+							GITHUB
+						</button>
+					</div>
+					<div class="col-xs-12 col-md-2 col-lg-4">
+						<button  type="button" class="btn btn-default">
+							<img src="img/in.png">
+							THENEWSTEP
+						</button>
+					</div>
+				
+				</div>	
+			</div>	
+		</div>	
+	</div>
+
+	<!-- footer -->
+	<div class="container">
+		<nav class="footer" class="row">
+			<ul class="col-xs-12 col-md-6 col-lg-6 nav navbar-nav">
+				<li class="col-xs-2 col-md-2 col-lg-2"><a href="#top">Home&nbsp;&nbsp;&nbsp;⋅</a></li>
+				
+				<li class="col-xs-2 col-md-2 col-lg-2"><a href="#top">About&nbsp;&nbsp;&nbsp;⋅</a></li>
+				
+				<li class="col-xs-2 col-md-2 col-lg-2"><a href="#ser">Services&nbsp;&nbsp;&nbsp;⋅</a></li>
+				
+				<li class="col-xs-2 col-md-2 col-lg-2"><a href="#con">&nbsp;&nbsp;&nbsp;&nbsp;Content</a></li>
+			</ul>
+			<span class="col-xs-12 col-md-12 col-lg-12" style="height:60px;color:#666">Copyright © 课后帮 2016. All Rights Reserved</span>
+		</nav>
+		
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

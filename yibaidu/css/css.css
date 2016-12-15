@@ -1,0 +1,306 @@
+.clearfix{
+	width:500px;
+	border:1px solid black;
+}
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,em,textarea,p,th,td,span{
+		margin:0px;padding:0px;
+}
+body,button,input,select,textarea{
+		font:12px/1.5 "微软雅黑", '宋体', STHeiTi ,Arial, Helvetica, sans-serif;
+		color:#333;
+}
+body{
+		background-color:#fff;
+}
+p{
+		line-height:21px;
+}
+img,a img,fieldset,button,input{
+		border:none;
+		vertical-align:middle;
+}
+section,article,aside,header,footer,nav,dialog,figure{
+		display:block;
+}
+ol,ul,li{
+		list-style-type:none;
+}
+
+.content{
+	width:914px;
+	margin:0 auto;
+}
+.headtop{
+	width:100%;
+	height:30px;
+	background:#eee;
+}
+.headmain{
+	height:81px;
+	width:100%;
+	margin-top:12px;
+}
+.logo{
+	float:left;
+	height:100%;
+}
+.headrimg{
+	float:right;
+	height:64px;
+	margin-top:10px;
+}
+.banner{
+	height:215px;
+	width:100%;
+	margin-top:14px;
+}
+
+.main{
+	width:100%;
+	height:832px;
+	margin-top:10px;
+	float:left;
+}
+.main-left{
+	width:327px;
+	height:834px;
+	float:left;
+}
+.main-right{
+	width:573px;
+	height:799px;
+	float:right;
+}
+.video-box{
+	height:285px;
+	width:100%;
+}
+.see-box{
+	width:294px;
+	margin:0 auto;
+	height:20px;
+	margin-top:6px;
+}
+.see-box a{
+	background:#333;
+	color:black;
+	padding:2px 6px;
+	font-size:12px;
+	text-decoration:none;
+	color:white;
+}
+.seemore{
+	height:198px;
+	border:1px solid #eee;
+	background:#eee;
+	margin-top:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.hr{
+	width:294px;
+	margin:0 auto;
+	margin-top:6px;
+}
+.hotel-box{
+	width:294px;
+	margin:0 auto;
+	height:144px;
+	margin-top:8px;
+}
+.hotel1{
+	height:66px;
+	width:140px;
+	background:#666;
+	color:white;
+	float:left;
+}
+.hotel1 img{
+	height:66px;
+	width:66px;
+	float:left;
+}
+.hotel1 p{
+	margin-top:20px;
+}
+.h-m1,.h-m3{
+	margin-left:10px;
+}
+.h-m2,.h-m3{
+	margin-top:10px;
+}
+
+
+.freetrial{
+	height:320px;
+	width:99%;
+	border:2px solid #999;
+	margin-top:15px;
+}
+.freetrial h1{
+	height:30px;
+	line-height:30px;
+	background:#333;
+	color:white;
+	padding-left:14px;
+	font-size:14px;
+}
+.freetrial a img{
+	width:99.8%;
+}
+.free-bot{
+	width:300px;
+	height:200px;
+	margin:0 auto;
+}
+.f-b-l{
+	height:200px;
+	width:140px;
+	float:left;
+}
+
+.awad{
+	height:20px;
+	width:100%;
+	float:left;
+	line-height:20px;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.f-b-r{
+	height:200px;
+	width:140px;
+	float:left;
+	margin-left:16px;
+}
+.d1{
+	width:8px;
+	height:16px;
+	margin-left:5px;
+	margin-top:2px;
+	float:left;
+	background:red;
+}
+.d2{
+	float:left;
+
+}
+.f-b-l img{
+	margin-top:5px;
+	margin-left:5px;
+}
+.tiantai{
+	height:20px;
+	margin-left:5px;
+	font-size:14px;
+	color:red;
+	margin-top:10px;
+}
+.dongdu{
+	height:20px;
+	margin-left:5px;
+	font-size:14px;
+	margin-top:0px;
+}
+
+.main-top{
+	height:149px;
+	width:100%;
+}
+.main-top h2{
+	height:32px;
+	background:#666;
+	color:white;
+	font-size:14px;
+	line-height:32px;
+	padding-left:10px;
+	font-weight:bold;
+	margin-bottom:1px;
+}
+.main-top h2 a{
+	color:#fff;
+	text-decoration:none;
+	font-size: 12px;
+	margin-left:10px
+}
+
+.main-center{
+	height:220px;
+	border:2px solid #999;
+}
+
+.goods{
+	width:256px;
+	height:108px;
+	float:left;
+
+}
+.g1{
+	border-bottom:1px dashed #999;
+	margin-left:15px;
+}
+.g2{
+	margin-left:15px;
+	border-bottom:1px dashed #999;
+}
+.g3{
+	margin-left:15px;
+}
+.g4{
+	margin-left:15px;
+}
+.goods img{
+	float:left;
+	margin-top:20px;
+	margin-right:10px;
+}
+.goods .p1{
+	width:240px;
+	line-height:18px;
+	margin-top:20px;
+	margin-left:10px;
+	text-indent:20px;
+	font-size:14px;
+}
+.goods .p2{
+	width:240px;
+	margin-top:4px;
+	margin-left:10px;
+	font-size:14px;
+	color:red;
+}
+
+.main-bottom{
+	width:100%;
+	height:418px;
+	margin-top:10px;
+}
+.m-l{
+	width:282px;
+	float:left;
+}
+.m-r{
+	width:282px;
+	float:right;
+}
+.footer{
+	width:100%;
+	height:60px;
+	line-height:30px;
+	clear:left;
+	text-align:center;
+	font-weight:bold;
+	color:white;
+	background:#333;
+	position:relative;
+	top:40px;
+}
+.footer a{
+	color:white;
+	text-decoration:none;
+}
+
+
+
+

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>课后帮</title>
+<style type="text/css">
+/*.logo{
+	font-size:20px;
+	color:#f14e42;
+	display:inline;
+	 块级和行内元素对齐方式  基线 vertical-align：top middle base
+
+}
+.websitelink{
+	font-size:12px;
+	color:#999999;
+	vertical-align: top;
+}
+*/
+/*程序中最干净的颜色是黑色*/
+/* 标签样式初始化 */
+body{margin:0;padding:0;background:#fff;font-size:14px;font-family:Arial,Helvetica,'STHeiti','Microsoft YaHei','sans-serif'}
+form,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+img{border:0;}
+ul,li{list-style-type:none;}
+a{color:#00007F;text-decoration:none;}
+a:hover{text-decoration:none;}
+/*header*/
+.logo{
+	font-size:20px;
+	color:#f14e42;
+	float:left;
+}
+.websitelink{
+	font-size:12px;
+	color:#999999;
+}
+.nav{
+	font-size:14px;
+	color: #999999;
+	float:right;
+	margin-left:40px;
+	transition: all 0.15s linear;
+}
+.nav:hover{
+	color:#6bc5d2;
+}
+.top{
+	max-width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+	padding-bottom:30px;
+}
+/*.banner:after{
+	display:block;
+	clear:both;
+	content:"";
+}*/
+/*banner*/
+.banner{
+	background-color:#6bc5d2;
+	padding:100px 0 120px 0;
+}
+.typographic{
+	font-size:400px;
+	color:#FFFFFF;
+	letter-spacing: -20px;
+	float:left;
+	margin-top:-180px;
+	padding-right: 40px;
+	margin-left:-120px;
+}
+.slogan{
+	font-size:36px;
+	color:#ffffff;
+	margin-top:20px;
+}
+.introduction{
+	color:#177c8a;
+	margin-top:10px;
+}
+.call{
+	font-size:18px;
+	color:#ffffff;
+	border:1px solid #ffffff;
+	border-radius: 5px;
+	padding:10px 30px;
+	display:inline-block;
+	margin-top:20px;
+}
+.call:hover{
+	background:rgba(255,255,255,0.2);
+}
+
+/*shi*/
+.poembox{
+	clear:both;
+}
+.poemtitle{
+	color:#f14e42;
+	font-size:24px;
+	margin-bottom:24px;
+	width:100%;
+	text-align:center;
+}
+.poemcontent{
+	color:#6f6f70;
+	line-height:25px;
+    text-align: left;
+    margin:0 auto;
+    max-width:420px; 
+}
+
+.visiontitle{
+	color:#f14e42;
+	font-size:24px;
+	margin-bottom:30px;
+	margin-top:30px;
+	text-align:left;
+}
+.visioncontent{
+	color:#6f6f70;
+	line-height:25px;
+	padding-left:20px;
+	text-align:left;
+}
+.hope{
+	width:100%;
+	text-align:center;
+	border-top:1px solid #eee;
+	border-bottom:1px solid #eee;
+	margin-top:10px;
+	min-height:340px;
+}
+
+.container{
+	max-width:960px;
+	margin:0 auto;
+} 	
+
+
+/*hope*/
+.photo{
+	float:left;
+	width:200px;
+	float:left;
+	margin-left:40px;
+	padding-right:30px;
+}
+/*email*/
+.contactblock{
+	text-align:center;
+	padding:60px 0 60px 0px;
+}
+.contacttitle{
+	font-size:24px;
+	color:#6f6f70;
+}
+.email{
+	background:#6bc5d2;
+	padding:10px 40px;
+	border-radius:5px;
+	display:inline-block;
+	margin-top:30px;
+	color:#ffffff;
+}
+.email:hover{
+	background:#73d4e2;
+}
+/*footer*/
+.footer{
+	background:#f3f3f3;
+	padding:35px 0;
+	border-top:1px solid #e3e3e3;
+	text-align:center;
+}
+.footercontent{
+	color:#bfbfbf;
+}
+
+@media screen and (max-width:767px){
+	.logo{float:none;text-align:center;margin-bottom:20px;}
+	.nav{float:none;margin-left:20px;}
+	.nav1{margin-left:0px;}
+	.top{text-align:center;}
+	.websitelink{display:none;}
+	.typographic{display:none;}
+	.container{text-align:center;}
+	.photo{display:none;}
+	.visiontitle{text-align:center;}
+	.poemtitle{margin-top:30px;}
+}
+
+</style>
+</head>
+<meta charset="utf-8">
+<body>
+	<div class="top">
+		<h1 class="logo">课后帮</h1>
+		<span class="websitelink">Homework Hellow</span>
+		<span class="aa">	
+			<a class="nav nav1" href="#tomail">邮件联系</a>
+			<a class="nav" href="#tohope">愿景</a>
+			<a class="nav" href="#crazyonce">致蓝欧人</a>
+		</span>	
+	</div>
+
+	<div class="banner">
+		<div class="container"> 	
+		  	<span class="typographic">web</span>
+		  	<h2 class="slogan">课后帮</h2>
+		  	<p class="introduction">
+		  		以人为镜，可以明得失！以代码为镜，可以通逻辑！
+		  	</p>
+		  	<a class="call" href="#">查看作业</a>
+  		</div>
+  	</div>
+
+  	<!-- 诗的开始 -->
+  	<div id="crazyonce" class="poembox">
+  		<div class="container"> 	
+	  		<h2 class="poemtitle">向蓝欧人致敬</h2>
+	  		<div class="contentblock"> 
+		  		<p class="poemcontent">
+		  			向蓝鸥人致敬！<br>
+					他们惹是生非，我行我素，骄傲不逊。<br>
+					在人们眼中总显得格格不入。<br>
+					他们用不同的角度看待事物。<br>
+					他们蔑视规则，也从不安于现状<br>
+					你可以支持他们，否定他们，颂扬或者鄙视他们<br>
+					但你唯一无法做到的就是忽视他们。<br>
+					因为他们带来了改变，他们推动了人类的进步。<br>
+					有些人觉得他们疯了，而我们从中看到了闪光。<br>
+					因为只有那些妄想自己能改变世界的人，才真正带来了伟大的革新。
+		  		</p>
+		  	</div>	
+	  	</div>
+  	</div>
+  	<!-- 愿景 -->
+  	<div class="hope" id="tohope">
+  		<div class="container"> 	
+	  		<img class="photo" src="sunshine.png" alt="">
+	  		<h2 class="visiontitle">课后帮的愿景</h2>
+	  		<p class="visioncontent">
+	  			帮助更多的同学,在课后之余,能够通过练习做题强化当天的知识,无论学那种编程语言或者标记语言，甚至说学某门外语，最重要的就是练习。将所学的知识练到最熟，有一句名言说的好，真正的程序员是可以一边聊天一边写工程的。
+	  		</p>
+	  	</div>	
+  	</div>
+  	<!-- 邮件开始 -->
+  	<div class="container contactblock" id="tomail">
+  		<h2 class="contacttitle">如果你对我们的课成感新区</h2>
+  		<a class="email" href="mailto:why1wm@163.com">邮件联系</a>
+  	</div>
+  	<!-- footer -->
+  	<div class="footer container">
+  		<span class="footercontent">课后帮 HomeWork Helper</span>
+  	</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
