@@ -6,16 +6,15 @@
 .phone{
 	position: relative;
 	margin:40px auto;
-	height:0.6rem;
+	height:0.5rem;
 	width:3rem;
 	border:1px solid #E3D3D4;
-	padding-top:0.1rem;
 	border-radius: 0.1rem;
 }
 
 .phone img{
-	height:0.4rem;
-	width:0.4rem;
+	height:0.3rem;
+	width:0.3rem;
 	margin-left:0.1rem;
 }
 .phone input{
@@ -28,7 +27,7 @@
 	font-size:0.19rem;
 	position: absolute;
 	right:0.2rem;
-	top: 0.22rem;
+	top: 0.12rem;
 	color:#E70010;
 }
 
@@ -100,8 +99,8 @@
 	display: block;
 	border:1px solid #62DEA2;
 	border-radius: 0.5rem;
-	height:0.6rem;
-	line-height: 0.5rem;
+	height:0.5rem;
+	line-height: 0.4rem;
 }
 .weixin-btn .w-box{
 	width:60%;

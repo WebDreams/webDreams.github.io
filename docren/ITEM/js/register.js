@@ -20,25 +20,25 @@ $(function(){
         timer = setInterval(function(){
             i();
         }, 1000);
-        var tel2 = $("#tel2").val();
-        // $.ajax({
-        //     url:"http://localhost:8000/common/send-code",
-        //     type: "post",
-        //     data: {
-        //          "mobile": tel2
-        //     },
-        //     dataType: "json",
-        //     timeout:0,
-        //     success: function (data) {
-        //      // var obj = data.content;
-        //      // console.log(obj);
-        //      alert(data)
-        //     },
-        //     error:function(XMLHttpRequest,textStatus,errorThrown){
-        //      // $(".fail-page").show();
-        //      // $(".fail-page p").html(textStatus);
-        //     }
-        // });
+
+        var mobile = $("mobile").val();
+         // 获取验证码
+        $.ajax({
+            url:"http://test.docren.com.cn/common/send-code",
+            type: "post",
+            data: {
+                 "mobile": mobile
+            },
+            dataType: "json",
+            timeout:0,
+            success: function (data) {
+             console.log(data);//
+            },
+            error:function(XMLHttpRequest,textStatus,errorThrown){
+             // $(".fail-page").show();
+             // $(".fail-page p").html(textStatus);
+            }
+        });
     })
 
 
@@ -52,10 +52,10 @@ $(function(){
             url:"http://test.docren.com.cn/auth/first-check?",
             type: "post",
             data:{
-            	"password":"123456",
-            	"re_password":"123456",
-            	"mobile":"15010078636",
-            	"code":"158723"
+            	"password":psd,
+            	"re_password":re-psd,
+            	"mobile":mobile,
+            	"code":code
             },
             dataType: "json",
             timeout:0,
